@@ -1,0 +1,43 @@
+section{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+#BarraMenu{
+   padding-left: 10px; 
+   padding-right: 20px;
+}
+#Iniciar{
+    margin-left: auto;
+}
+#Panel{
+    border: 1px solid black ;
+    border-radius: 10px;
+}
+#panelCabeza{
+    font-size:21px;
+    padding: 10px;
+    border-radius: 9px 9px 0 0;
+}
+#panelCuerpo{
+    padding: 10px;
+}
+.CajasTexto{
+    margin-top: 10px;
+    
+}
+#Jumbo{
+    background-color:lightgrey;
+    padding: 10px;
+    border-radius: 20px;
+}
+#Negocio{
+    margin-left: 1100px;
+}
+.AccesosDirectos{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
