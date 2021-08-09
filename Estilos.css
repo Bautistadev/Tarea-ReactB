@@ -1,3 +1,6 @@
+body{
+    font-family: century gothic;
+}
 section{
     margin-left: auto;
     margin-right: auto;
@@ -5,6 +8,13 @@ section{
     padding-left: 100px;
     padding-right: 100px;
     
+}
+footer{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+
 }
 #BarraMenu{
    padding-left: 10px; 
@@ -27,7 +37,6 @@ section{
 }
 .CajasTexto{
     margin-top: 10px;
-    
 }
 #Jumbo{
     background-color:lightgrey;
@@ -40,4 +49,9 @@ section{
 .AccesosDirectos{
     margin-top: 10px;
     margin-bottom: 20px;
+}
+#Pie{
+    text-align: center;
+    background-color:lightskyblue;
+    border-radius: 20px 20px 0 0;
 }
