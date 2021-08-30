@@ -32,24 +32,26 @@
     </header>
     <main>
         <div class="container-fluid">
-                <h2 style="text-align:center;color:white;">Completá la información solicitada para recibir asistencia</h2>
+            <h2 style="text-align:center;color:white;">Completá la información solicitada para recibir asistencia</h2>
+            <form>
                 <div class="row">
                     <div class="col-sm-12">   
-                        <input type='text' style="margin-top:20px;"class="form-control"placeholder="Correo electronico">
+                        <input type='email' style="margin-top:20px;"class="form-control"placeholder="Correo electronico" required>
                     </div>
                     <div class="col-sm-12">
-                        <input type='text' style="margin-top:20px;"class="form-control"placeholder="Correo electronico (Confirmar)">
+                        <input type='email' style="margin-top:20px;"class="form-control"placeholder="Correo electronico (Confirmar)" required>
                     </div>
                     <div class="col-sm-12">
-                        <input type='text' style="margin-top:20px;"class="form-control"placeholder="Producto Comprado">
+                        <input type='text' style="margin-top:20px;"class="form-control"placeholder="Producto Comprado" required>
                     </div>
                     <div class="col-sm-12">
-                        <textarea style="margin-top:20px; height:200px"class="form-control"placeholder="Describe el problema"></textarea>
+                        <textarea style="margin-top:20px; height:200px"class="form-control"placeholder="Describe el problema" required></textarea>
                     </div>
                     <div class="col-sm-12">
-                        <input type="button" style="margin-top:20px;" value="Enviar" class="btn btn-success form-control">
+                        <input type="submit" style="margin-top:20px;" value="Enviar" class="btn btn-success form-control" required>
                     </div>
                 </div>
+            </form>
         </div>
     </main>
 </html>    
